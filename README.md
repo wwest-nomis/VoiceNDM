@@ -32,8 +32,8 @@ This proof-of-concept demonstrates how quickly we can build sophisticated voice-
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
-cd voicendm
+git clone https://github.com/wwest-nomis/VoiceNDM.git
+cd VoiceNDM
 ```
 
 2. Create and activate a virtual environment:
@@ -82,7 +82,7 @@ The assistant will:
 2. **Voice Activity Detection**: Monitors audio levels to detect speech and silence
 3. **Model Comparison**: Processes audio through three Whisper models:
    - Small (244M params): Most accurate, slowest
-   - Base (74M params): Balanced performance ✓ **Used for production**
+   - Base (74M params): Balanced performance ✓ **Used for prototype**
    - Tiny (39M params): Fastest, least accurate
 4. **Result Selection**: Uses base model output for optimal speed/accuracy balance
 
